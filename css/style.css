@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+header{
+    
+padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px;
+}
+section{
+	padding-top: 325px;
+	padding-bottom: 325px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+}
+.section-one{
+	background-image: url(../images/bg1.jpg);
+	
+}
+.section-one h1{
+    color: #aca20c;
+    background: #f1e31a85;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-two{
+	background-image: url(../images/bg2.jpg);
+
+}
+.section-two h1{
+    color: #05050d;
+    background: #52f4f678;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-three{
+	background-image: url(../images/bg3.jpg);
+
+}
+.section-three h1{
+    color: #000000;
+    background: #ff1c907d;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-four{
+	background-image: url(../images/bg4.jpg);
+
+}
+.section-four h1{
+    color: #374d01;
+    background: #a2e90785;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-five{
+	background-image: url(../images/bg5.jpg);
+
+}
+.section-five h1{
+    color: #b64b23;
+    background: #fe9dbe7d;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.section-six{
+	background-image: url(../images/bg6.jpg);
+
+}
+.section-six h1{
+    color: #443b00;
+    background: #fadf0975;
+    font-size: 40px;
+    width: 515px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
